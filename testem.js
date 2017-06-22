@@ -6,7 +6,14 @@ module.exports = {
     "PhantomJS"
   ],
   "launch_in_dev": [
+    //  ember test --server --filter='unit' to run unit tests
     "PhantomJS",
-    "Chrome"
-  ]
+    "Chrome",
+    "Mocha",
+  ],
+  "launchers": {
+    "Mocha": {
+      "command": "mocha tests/unit/components/*_test.js"
+    }
+  }
 };
