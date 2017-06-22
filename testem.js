@@ -13,7 +13,7 @@ module.exports = {
   ],
   "launchers": {
     "Mocha": {
-      "command": "mocha tests/unit/components/*_test.js"
+      "command": "mocha tests/*_test.js"
     }
   }
 };
