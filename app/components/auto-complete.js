@@ -8,9 +8,12 @@ export default Ember.Component.extend({
     return `I append things to ${name} because I'm a computed property`;
   }),
   actions: {
-    click() {
+    clickHandler1() {
       console.log('OH YEAH');
-      //this.clickHandler(...arguments);
+    },
+    onOptionClick(event) {
+      console.log('OH YEAH2', );
+      this.clickHandler(event.target.id);
     },
   }
 });

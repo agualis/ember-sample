@@ -1,4 +1,13 @@
 PARENT:
-{{#my-button clickHandler=(action 'removeOption')}}
+{{#my-button clickHandler=(action 'test')}}
   MY FUCKIG BUTTON
 {{/my-button}}
+<br>
+<br>
+{{listNum}}
+<br>
+{{#auto-complete list=list clickHandler=(action 'removeOption')}}
+  This is my autocomplete yield
+{{/auto-complete}}
+
+

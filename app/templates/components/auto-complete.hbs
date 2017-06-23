@@ -3,7 +3,7 @@ This is my autocomplete template
 {{computedName}}
 <br>
 {{yield}}
-<button onclick={{action "click"}}>CLICKAME!!</button>
+<button onclick={{action "clickHandler1"}}>CLICKAME!!</button>
 <br>
 <br>
 <br>
@@ -12,7 +12,7 @@ Tengo una lista de longitud: {{list.length}}
 
 <ul>
   {{#each list as |option index|}}
-    <li id={{option.id}}>
+    <li id={{option.id}} onclick={{action "onOptionClick"}}>
       {{ option.title }}
     </li>
   {{/each}}
