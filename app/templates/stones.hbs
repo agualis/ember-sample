@@ -1,8 +1,11 @@
 STONES ROUTE
 
-{{#auto-complete }}
+{{#auto-complete list=model clickHandler=removeOption}}
   This is my autocomplete yield
 {{/auto-complete}}
+
+{{my-button clickHandler=sayHi}}
+
 
 <li>{{#link-to "application"}}Go back to root{{/link-to}}</li>
 
