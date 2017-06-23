@@ -7,16 +7,5 @@ export default Ember.Route.extend({
       console.log('PASOTE DE PRUEBA', response);
       return response.json();
     });
-  },
-  actions: {
-    sayHi() {
-      console.log('Hi1!');
-    }
-  },
-  sayHi2() {
-    console.log('Hi2!');
-  },
-  removeOption() {
-    console.log('removing option');
   }
 });

@@ -2,8 +2,8 @@ import Ember from 'ember';
 
 export default Ember.Component.extend({
   actions: {
-    clickHandler() {
-      this.attrs.clickHandler(...arguments);
+    removeOption(event) {
+      console.log('removing option', event.target);
     }
-  }
+  },
 });
