@@ -9,7 +9,7 @@ module.exports = {
     //  ember test --server --filter='unit' to run unit tests
     "PhantomJS",
     "Chrome",
-    "Mocha",
+    // "Mocha",
   ],
   "launchers": {
     "Mocha": {

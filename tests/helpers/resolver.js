@@ -9,3 +9,4 @@ resolver.namespace = {
 };
 
 export default resolver;
+
