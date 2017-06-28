@@ -7,9 +7,8 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
-  console.log('INSIDE MAIN ROUTER');
-  Ember.Logger.error('LOGGER ERROR');
   this.route('stones');
+  this.route('home');
 });
 
 export default Router;

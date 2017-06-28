@@ -3,9 +3,8 @@ import Ember from 'ember';
 
 export default Ember.Route.extend({
   model() {
-    console.log('PASOTE DE PRUEBA', response);
     return fetch('https://jsonplaceholder.typicode.com/posts').then(function(response) {
-      console.log('PASOTE DE PRUEBA', response);
+      Ember.Logger.info('FETCHING DATA', response);
       return response.json();
     });
   }

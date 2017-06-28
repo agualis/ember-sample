@@ -1,0 +1,13 @@
+<br>
+I have a list of length: {{list.length}}
+
+<ul>
+  {{#each list as |option index|}}
+    <li id={{option.id}} onclick={{action "onOptionClick" index}}>
+      {{ option.title }}
+    </li>
+  {{/each}}
+</ul>
+
+
+
