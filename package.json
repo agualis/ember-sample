@@ -54,7 +54,9 @@
     "install": "^0.10.1",
     "loader.js": "^4.2.3",
     "mocha": "^3.4.2",
-    "redux": "3.7.2"
+    "redux": "3.7.2",
+    "snap-shot": "^2.17.0",
+    "snap-shot-it": "^4.0.1"
   },
   "engines": {
     "node": ">= 4"

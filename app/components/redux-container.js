@@ -2,7 +2,6 @@ import Ember from 'ember';
 import { connect } from 'ember-redux';
 
 const stateToComputed = state => {
-  console.log('ESTE ES EL ESTADO:', state)
   return {
     number: state.number
   };
