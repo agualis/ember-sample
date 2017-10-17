@@ -9,6 +9,7 @@ const Router = Ember.Router.extend({
 Router.map(function() {
   this.route('stones');
   this.route('home');
+  this.route('redux');
 });
 
 export default Router;

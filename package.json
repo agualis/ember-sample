@@ -41,19 +41,27 @@
     "ember-export-application-global": "^2.0.0",
     "ember-fetch": "^3.1.0",
     "ember-load-initializers": "^1.0.0",
+    "ember-lodash-shim": "^2.0.0",
     "ember-mocha": "^0.12.0",
+    "ember-redux": "^3.0.0",
+    "ember-redux-shim": "^2.5.0",
+    "ember-redux-thunk-shim": "^2.4.0",
     "ember-resolver": "^4.0.0",
     "ember-source": "~2.13.0",
+    "ember-symbol-observable": "1.0.0",
     "ember-welcome-page": "^3.0.0",
     "install": "^0.10.1",
     "loader.js": "^4.2.3",
-    "mocha": "^3.4.2"
+    "mocha": "^3.4.2",
+    "redux": "3.7.2"
   },
   "engines": {
     "node": ">= 4"
   },
   "private": true,
   "dependencies": {
-    "phantomjs": "^2.1.7"
+    "lodash": "^4.17.4",
+    "phantomjs": "^2.1.7",
+    "redux-thunk": "2.2.0"
   }
 }
