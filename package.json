@@ -43,6 +43,7 @@
     "ember-load-initializers": "^1.0.0",
     "ember-lodash-shim": "^2.0.0",
     "ember-mocha": "^0.12.0",
+    "ember-native-dom-helpers": "^0.5.4",
     "ember-redux": "^3.0.0",
     "ember-redux-shim": "^2.5.0",
     "ember-redux-thunk-shim": "^2.4.0",

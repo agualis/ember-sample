@@ -2,7 +2,7 @@ import { connect } from 'ember-redux';
 import { NumbersComponent } from './redux-container';
 
 const stateToComputed = state => {
-  console.log('ESTE ES EL ESTADO MOCKEADO:', state)
+  // console.log('THIS IS MOCKED STATE:', state)
   return {
     number: state.number
   };
